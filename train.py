@@ -1,4 +1,4 @@
-"""
+
 class Personnage :
     nom = "nom du joueur"
     prenom = "prenom du joueur"
@@ -10,7 +10,7 @@ class Personnage :
         self.prenom = prenom
         self.age = age
         self.puissance = puissance
-        self.__faiblesse = faiblesse
+        self.__faiblesse = faiblesse    # on n'a pas accés à ça de l'exterieur " .__ "
 
 
 
@@ -21,7 +21,7 @@ print(Pers)
 print(Pers.nom)
 print("")
 print(Pers.faiblesse)
-"""
+
 
 
 
